@@ -1,0 +1,3 @@
+/home/xilinx/github/CppND-Capstone-Snake-Game/build/CMakeFiles/rebuild_cache.dir
+/home/xilinx/github/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir
+/home/xilinx/github/CppND-Capstone-Snake-Game/build/CMakeFiles/edit_cache.dir
