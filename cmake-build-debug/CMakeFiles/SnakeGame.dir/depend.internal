@@ -53,6 +53,7 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/controller.h
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/snake.h
 CMakeFiles/SnakeGame.dir/src/game.cpp.o
+ /home/xilinx/github/CppND-Capstone-Snake-Game/src/audio.h
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/controller.h
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/game.cpp
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/game.h
@@ -103,6 +104,7 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o
  /usr/include/SDL2/begin_code.h
  /usr/include/SDL2/close_code.h
 CMakeFiles/SnakeGame.dir/src/main.cpp.o
+ /home/xilinx/github/CppND-Capstone-Snake-Game/src/audio.h
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/controller.h
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/game.h
  /home/xilinx/github/CppND-Capstone-Snake-Game/src/main.cpp

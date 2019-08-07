@@ -2,15 +2,13 @@
 // Created by Marco Fontana
 //
 
-#ifndef CPPND_CAPSTONE_SNAKE_GAME_AUDIO_H
-#define CPPND_CAPSTONE_SNAKE_GAME_AUDIO_H
+#ifndef AUDIO_H
+#define AUDIO_H
 
-#include <SDL.h>
+#include "SDL.h"
 #include <string>
 #include <map>
 #include <vector>
-
-const char *_feed_sound = "../sound/feed.wav";
 
 typedef struct {
     SDL_AudioSpec wav_spec;
@@ -21,21 +19,25 @@ typedef struct {
 typedef enum{
     FEED,
     SOUNDTRACK
-} WAV_KEYS;
+} WAV_SOUND;
+
 
 class Audio {
 public:
     Audio();
-
+    int playEffect(WAV_SOUND sound);
 private:
 
+    const char *_feed_sound{"../sound/feed.wav"};
+
+    bool _init;
 
     SDL_AudioDeviceID _device;
-    // a map containing the wav files
-    std::map<WAV_KEYS, WAV_FILE> _sounds;
+    std::map<WAV_SOUND, WAV_FILE> _sounds;
 
+    bool isInit();
     int loadEffects();
 };
 
 
-#endif //CPPND_CAPSTONE_SNAKE_GAME_AUDIO_H
+#endif //AUDIO_H

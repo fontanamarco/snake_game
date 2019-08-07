@@ -3,6 +3,7 @@
 
 #include <random>
 #include "SDL.h"
+#include "audio.h"
 #include "controller.h"
 #include "renderer.h"
 #include "snake.h"
@@ -17,6 +18,7 @@ class Game {
 
  private:
   Snake snake;
+  Audio audio;
   SDL_Point food;
 
   std::random_device dev;
