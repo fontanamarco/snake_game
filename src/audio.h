@@ -25,11 +25,14 @@ typedef enum{
 class Audio {
 public:
     Audio();
+    ~Audio();
     int playEffect(WAV_SOUND sound);
+
 private:
+    static void audioCallback(void *udata, Uint8 *stream, int len);
 
     const char *_feed_sound{"../sound/feed.wav"};
-
+    char *_deviceName;
     bool _init;
 
     SDL_AudioDeviceID _device;
