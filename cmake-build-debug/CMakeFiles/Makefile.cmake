@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeSystem.cmake"
+  "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeSystem.cmake"
   "/opt/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/opt/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "/opt/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -33,7 +33,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux.cmake"
   "/opt/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
   "/opt/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/ProcessorCount.cmake"
-  "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
   )
 
 # The corresponding makefile is:

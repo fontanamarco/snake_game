@@ -46,7 +46,7 @@ int Audio::loadEffects()
 
     // pass this as userdata so that we can access class's data
     _sounds[FEED].wav_spec.userdata = this;
-    _sounds[FEED].wav_spec.callback = this->audioCallback;
+    //_sounds[FEED].wav_spec.callback = this->audioCallback;
 
     // other effects to be added...
 
@@ -75,16 +75,17 @@ int Audio::playEffect(WAV_SOUND sound)
             break;
     }
 
-    //SDL_QueueAudio(_device, audioEffect->wav_buffer, audioEffect->wav_length);
+    SDL_QueueAudio(_device, audioEffect->wav_buffer, audioEffect->wav_length);
     SDL_PauseAudioDevice(_device, 0);
 
-    while ( audioEffect->wav_length > 0 ) {
-        SDL_Delay(1);
-    }
+//    while ( audioEffect->wav_length > 0 ) {
+//        SDL_Delay(1);
+//    }
     SDL_CloseAudio();
 }
 
 
+/*
 // forward callback
 void Audio::audioCallback(void *userdata, Uint8 *stream, int len)
 {
@@ -108,3 +109,4 @@ void Audio::audioCallback(void *userdata, Uint8 *stream, int len)
     pAudio->_sounds[FEED].wav_length -= len;
     std::cout << "[2] pAudio->_sounds[FEED].wav_length: " << pAudio->_sounds[FEED].wav_length << '\n';
 }
+ */
